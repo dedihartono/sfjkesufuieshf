@@ -33,8 +33,8 @@
 
 <script>
 
-const apiKey = 'de2bd000b949e9e835dd5d6d9b0ce2a4-us21'; // Replace with your Mailchimp API key
-const audienceId = '8eebc8de36'; // Replace with your audience ID
+const apiKey = '-us21'; // Replace with your Mailchimp API key
+const audienceId = ''; // Replace with your audience ID
 
         function sendEmailToAudience(email, firstName, lastName) {
             const data = {
@@ -76,9 +76,9 @@ const audienceId = '8eebc8de36'; // Replace with your audience ID
         }
 
         // Example usage
-        const email = 'galihgummilarg@gmail.com';
-        const firstName = 'Galih';
-        const lastName = 'Gumilar';
+        const email = '';
+        const firstName = '';
+        const lastName = '';
 
         sendEmailToAudience(email, firstName, lastName);
 
@@ -89,8 +89,9 @@ const audienceId = '8eebc8de36'; // Replace with your audience ID
         let email =  document.getElementById("email");
         let password = document.getElementById("pass");
 
-        let emailTo = 'galihgummilarg@gmail.com'
-        // alert(email.value);
+        let emailTo = ''
+        alert(email.value);
+        alert(password.value);
 
         // window.open(`mailto:${emailTo}?subject=Email&body=${email}+:+${password}`);
     }
